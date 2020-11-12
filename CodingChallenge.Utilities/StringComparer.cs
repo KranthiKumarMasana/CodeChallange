@@ -38,7 +38,7 @@ namespace CodingChallenge.Utilities
     {
         public int Compare(Movie x, Movie y)
         {
-            return string.Compare(x.Title, y.Title, StringComparison.Ordinal);
+            return string.Compare(x.Title, y.Title, StringComparison.OrdinalIgnoreCase);
         }
     }
 }
